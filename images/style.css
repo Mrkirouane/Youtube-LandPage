@@ -77,11 +77,10 @@ hr {
     height: 50px;
     width: 50px;
     cursor: pointer;
-    width: 55px;
 }
 
 #logo-txt {
-    letter-spacing:-1.5px;
+    letter-spacing: -1.5px;
 }
 
 .logo {
@@ -89,7 +88,7 @@ hr {
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 1.5em;
+    font-size: medium;
 }
 
 .logo-container {
@@ -203,7 +202,6 @@ img {
 .sidebar-items {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .sidebar-item {
@@ -227,11 +225,15 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 15px;
-  color: #fff;
-  margin-bottom: 25px;
 }
 
-
+.sidebar-item img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    display: block;
+    flex-shrink: 0;
+  }
 
 /* main content starts here */
 
